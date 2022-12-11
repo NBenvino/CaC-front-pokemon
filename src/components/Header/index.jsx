@@ -83,7 +83,7 @@ export function Header() {
   };
 
   return (
-    <div className="position-sticky vw-100">
+    <div className="position-sticky w-100">
       <nav className="navbar navbar-expand-sm bg-secondary navbar-dark px-3">
         <div className="d-flex align-items-center">
           <Link to="/CaC-front-pokemon/" className="nav-link navbar-brand">
