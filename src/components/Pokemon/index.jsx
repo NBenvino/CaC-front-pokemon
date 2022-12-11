@@ -67,7 +67,7 @@ export function Pokemon({ id, deleteThis, index }) {
           ></i>
         )}
 
-        <div className="card-body text-center px-2 pt-0">
+        <div className="card-body text-center px-2 py-0 mb-3">
           <div
             className="card-title m-0 align-center mb-2"
             style={{ height: 48 }}
