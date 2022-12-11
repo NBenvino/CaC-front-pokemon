@@ -62,14 +62,14 @@ export function Pokemon({ id, deleteThis, index }) {
           </>
         ) : (
           <i
-            className="fa-sharp fa-solid fa-plus d-flex justify-content-center align-items-center mt-2"
+            className="fa-sharp fa-solid fa-plus d-flex justify-content-center align-items-center"
             style={{ height: 103 }}
           ></i>
         )}
 
         <div className="card-body text-center px-2 py-0 mb-3">
           <div
-            className="card-title m-0 align-center mb-2"
+            className="card-title m-0 d-flex justify-content-center align-items-center mb-2"
             style={{ height: 48 }}
           >
             {pokemon.name ? capitalize(pokemon.name) : <>----------</>}
