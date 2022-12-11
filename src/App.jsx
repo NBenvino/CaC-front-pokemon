@@ -12,9 +12,9 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/CaC-front-pokemon" element={<Home />} />
+          <Route path="/CaC-front-pokemon/login" element={<Login />} />
+          <Route path="/CaC-front-pokemon/register" element={<Register />} />
         </Routes>
         <Footer />
       </BrowserRouter>

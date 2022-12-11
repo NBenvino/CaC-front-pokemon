@@ -26,7 +26,7 @@ export function Register() {
         timerProgressBar: true,
         showConfirmButton: false,
       });
-      navigate("/");
+      navigate("/CaC-front-pokemon");
     } catch (error) {
       console.log(error);
     }
@@ -96,7 +96,7 @@ export function Register() {
             </button>
           </div>
           <div className=" m-2 d-flex justify-content-center">
-            <Link to="/" className="btn btn-outline-info px-4">
+            <Link to="/CaC-front-pokemon" className="btn btn-outline-info px-4">
               Volver
             </Link>
           </div>

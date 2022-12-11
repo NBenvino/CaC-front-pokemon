@@ -74,20 +74,4 @@ export function Team({ teamCount, setTeamCount, team, setTeam }) {
       </div>
     </>
   );
-  //   return (
-  //     <>
-  //       <div className="card-deck d-flex justify-content-center flex-wrap gap-3">
-  //         {team.map((value, index) => {
-  //           return (
-  //             <Pokemon
-  //               key={index}
-  //               index={index}
-  //               id={value}
-  //               deleteThis={handleDelete}
-  //             />
-  //           );
-  //         })}
-  //       </div>
-  //     </>
-  //   );
 }

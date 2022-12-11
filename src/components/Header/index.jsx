@@ -19,13 +19,13 @@ export function Header() {
         background: "#dedede",
       })
       .then((res) => {
-        if (res.isConfirmed) navigate("/");
+        if (res.isConfirmed) navigate("/CaC-front-pokemon");
       });
   };
 
   const handleDisconnect = () => {
     localStorage.clear();
-    navigate("/login");
+    navigate("/CaC-front-pokemon/login");
     SwalNavigator();
   };
 
@@ -86,7 +86,7 @@ export function Header() {
     <div className="position-sticky vw-100">
       <nav className="navbar navbar-expand-sm bg-secondary navbar-dark px-3">
         <div className="d-flex align-items-center">
-          <Link to="/" className="nav-link navbar-brand">
+          <Link to="/CaC-front-pokemon/" className="nav-link navbar-brand">
             <img width="25px" src={require("../../img/pokeball.png")} alt="" />
           </Link>
         </div>
@@ -124,7 +124,7 @@ export function Header() {
                 <>
                   <li className="nav-item mx-1">
                     <Link
-                      to="/login"
+                      to="/CaC-front-pokemon/login"
                       className="shadow btn btn-primary rounded-pill"
                     >
                       Ingresar
@@ -132,7 +132,7 @@ export function Header() {
                   </li>
                   <li className="nav-item mx-1">
                     <Link
-                      to="/register"
+                      to="/CaC-front-pokemon/register"
                       className="shadow btn btn-outline-light rounded-pill"
                     >
                       Registrar

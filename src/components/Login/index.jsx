@@ -27,7 +27,7 @@ export function Login() {
         localStorage.userId = usuario.id;
         localStorage.userNick = usuario.nick;
         localStorage.team = usuario.team;
-        navigate("/");
+        navigate("/CaC-front-pokemon");
       }
     });
   };
@@ -62,7 +62,10 @@ export function Login() {
           <button type="submit" className="btn btn-primary m-3 rounded-pill">
             Ingresar
           </button>
-          <Link to="/" className="btn btn-outline-info m-3 rounded-pill">
+          <Link
+            to="/CaC-front-pokemon"
+            className="btn btn-outline-info m-3 rounded-pill"
+          >
             Volver
           </Link>
         </div>
