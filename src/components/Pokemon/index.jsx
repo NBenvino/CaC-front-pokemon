@@ -43,7 +43,7 @@ export function Pokemon({ id, deleteThis, index }) {
   return (
     <>
       <div
-        className="card bg-secondary m-2 flex-grow-2"
+        className="card bg-secondary m-1 flex-grow-2"
         style={{ width: 115, height: 225 }}
       >
         {pokemon.sprite ? (
