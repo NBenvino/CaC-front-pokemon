@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CaC-front-pokemon/static/css/main.66474422.css",
-    "main.js": "/CaC-front-pokemon/static/js/main.e0f2f085.js",
+    "main.js": "/CaC-front-pokemon/static/js/main.5e620c8d.js",
     "static/media/pokeball.png": "/CaC-front-pokemon/static/media/pokeball.1e479e0a796e4778a069.png",
     "index.html": "/CaC-front-pokemon/index.html",
     "main.66474422.css.map": "/CaC-front-pokemon/static/css/main.66474422.css.map",
-    "main.e0f2f085.js.map": "/CaC-front-pokemon/static/js/main.e0f2f085.js.map"
+    "main.5e620c8d.js.map": "/CaC-front-pokemon/static/js/main.5e620c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.66474422.css",
-    "static/js/main.e0f2f085.js"
+    "static/js/main.5e620c8d.js"
   ]
 }
