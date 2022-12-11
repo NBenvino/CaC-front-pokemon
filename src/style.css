@@ -1,0 +1,18 @@
+body {
+  background-color: #212121 !important;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #dedede !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,8 @@
+.is-invalid,
+.is-valid {
+  padding: 1.625rem 0.75rem 0.625rem 0.75rem !important;
+}
+
+.invalid-feedback {
+  margin: 0 !important;
+}
