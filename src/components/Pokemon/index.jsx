@@ -44,7 +44,7 @@ export function Pokemon({ id, deleteThis, index }) {
     <>
       <div
         className="card bg-secondary m-2 flex-grow-2"
-        style={{ width: 115, height: 210 }}
+        style={{ width: 115, height: 225 }}
       >
         {pokemon.sprite ? (
           <>
@@ -68,7 +68,7 @@ export function Pokemon({ id, deleteThis, index }) {
         )}
 
         <div className="card-body text-center px-2 pt-0">
-          <div className="card-title">
+          <div className="card-title m-0">
             {pokemon.name ? capitalize(pokemon.name) : <>----------</>}
           </div>
           <div className="d-flex flex-column card-body p-0 align-items-center justify-content-center h-75">
